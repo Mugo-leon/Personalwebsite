@@ -1,21 +1,27 @@
 body {
-background: lightblue;
-}
-#Aboutphoto {
-    width: 30%;
-    display: block;
-    margin: auto;
-    background-color: antiquewhite;
-    padding: 10px;
+  background: lightblue;
   }
-#About {
+  #Aboutphoto {
+      width: 30%;
+      display: block;
+      margin: auto;
+      background-color: antiquewhite;
+      padding: 10px;
+    }
+  #About {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: aliceblue;
+    }
+    
+  #About h1, .About p {
+      text-align: center;
+    }
+  #Contacts {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: aliceblue;
-  }
-  
-#About h1, .About p {
-    text-align: center;
   }
